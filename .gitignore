@@ -1,1 +1,18 @@
 /node_modules
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# Other
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
