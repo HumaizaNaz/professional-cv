@@ -205,7 +205,7 @@ export default function CV() {
         </div>
       </section>
 Deployed 25+ projects | 500+ community members | 30+ YouTube tutorials |
-<span className="text-emerald-600 font-medium">Actively contributing to Pakistan's AI & IT revolution via Governor Sindh Initiative</span> |
+<span className="text-emerald-600 font-medium">Actively contributing to Pakistan&apos;s AI & IT revolution via Governor Sindh Initiative</span> |
 <span className="text-emerald-600 font-medium">Specializing in cloud-based AI solutions using Gemini, Hugging Face, and backend technologies</span> |
 <span className="text-emerald-600 font-medium">Founder of innovative tech startup | Multiple hackathon participant & winner</span>
       <div className="text-center text-gray-600 text-xs mt-8">References available upon request</div>
