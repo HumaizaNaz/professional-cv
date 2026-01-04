@@ -187,7 +187,7 @@ export default function CV() {
       <section className="mb-6 text-gray-700">
         <h3 className="text-lg font-bold text-emerald-600 border-b pb-1 mb-3">HACKATHON PARTICIPATIONS</h3>
         <div className="space-y-2 text-sm">
-          <div><strong>GDG Agentic AI Hackathon</strong> — Winner (Pregnancy Agent) • July 2025</div>
+          <div><strong>GDG Agentic AI Hackathon</strong> Finalist / Participant (2025)</div>
           <div><strong>Additional Hackathons</strong> — Multiple participations in AI and Full-Stack Development challenges</div>
         </div>
       </section>
@@ -200,8 +200,10 @@ export default function CV() {
           <div><strong>Spec-Kit Framework & MCP Server</strong> — Completed + In Progress (PIAIC Cloud, 2025)</div>
           <div><strong>Python for Data Science & Agentic AI</strong> — PIAIC (Completed)</div>
           <div><strong>Cloud Computing & Backend Development</strong> — Google Cloud, AWS, Hugging Face (Ongoing)</div>
-          <div><strong>Bachelor’s Equivalent in IT & AI</strong> — Governor Sindh IT Initiative + PIAIC (2024–Present)</div>
-<div><strong>DHMS (Diploma in Homeopathic Medical Science)</strong> — Central Homeopathic College, Karachi (2015–2019)</div>
+          <div>
+  <strong>Advanced IT & AI Program</strong> — Governor Sindh IT Initiative + PIAIC (2024–Present)
+</div>
+<div><strong>Diploma in Homeopathic Medical Science (DHMS)</strong> — Central Homeopathic College, Karachi (2015–2019)</div>
         </div>
       </section>
 Deployed 25+ projects | 500+ community members | 30+ YouTube tutorials |
