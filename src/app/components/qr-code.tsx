@@ -7,13 +7,15 @@ interface QRCodeComponentProps {
   size: number
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function QRCodeComponent({ value, size }: QRCodeComponentProps) {
   return (
-    <div className="print:hidden flex flex-col items-center">
-      <div className="bg-white p-2 rounded-md shadow-sm border border-gray-200">
-        <QRCodeSVG value={value} size={size} className="text-emerald-600" />
+    <div className="print:hidden qr-code-section flex flex-col items-center mt-3">
+      <div className="bg-white p-3 rounded-lg shadow-md border">
+        <QRCodeSVG value="https://portfolio-humaiza.vercel.app/" size={size} />
       </div>
-      <p className="text-sm text-gray-600 mt-2">Scan for Portfolio</p>
+      <p className="text-sm text-gray-600 mt-2">Scan for Live Portfolio & Projects</p>
     </div>
+
   )
 }

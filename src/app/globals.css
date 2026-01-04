@@ -21,6 +21,56 @@
   main {
     padding: 0.5cm !important;
   }
+
+  /* Ensure all content is visible in print */
+  .no-print {
+    display: none !important;
+  }
+
+  /* Make sure links are visible but not clickable in print */
+  a {
+    color: #000 !important;
+    text-decoration: underline !important;
+  }
+
+  /* Add URLs after links in print */
+  a:after {
+    content: " [" attr(href) "]" !important;
+    font-size: 0.8em;
+    color: #666;
+    text-decoration: none !important;
+    word-break: break-all;
+  }
+
+  /* Don't show URL for internal links */
+  a[href^="#"]:after {
+    content: "" !important;
+  }
+
+  /* For compact social links in print, show the URL with proper label */
+  .flex.flex-wrap.gap-3.mt-3 a:after {
+    content: "" !important;
+  }
+
+  .flex.flex-wrap.gap-3.mt-3 a::before {
+    content: attr(title) ": " attr(href) !important;
+    display: block !important;
+    text-decoration: underline !important;
+    font-size: 0.8em !important;
+    color: #000 !important;
+    margin-bottom: 0.1em !important;
+  }
+
+  /* Hide the icon and text in print since we're showing the URL separately */
+  .flex.flex-wrap.gap-3.mt-3 a span,
+  .flex.flex-wrap.gap-3.mt-3 a svg {
+    display: none !important;
+  }
+
+  /* Ensure QR code is hidden in print since it's not useful */
+  .qr-code-section {
+    display: none !important;
+  }
 }
 
 html {
